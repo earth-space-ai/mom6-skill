@@ -63,6 +63,37 @@ This skill is grounded in:
    doi:10.1029/2019MS001726, the canonical MOM6 description paper.
 5. The **NOAA-GFDL/MOM6-examples** repo and its wiki for experiment layouts.
 
+## Acknowledgments
+
+**Gold-standard references for MOM6** (use these to cross-check anything in this skill):
+- MOM6 Sphinx documentation: https://mom6.readthedocs.io
+- NOAA-GFDL/MOM6 repository and wiki: https://github.com/NOAA-GFDL/MOM6 and https://github.com/NOAA-GFDL/MOM6/wiki
+- OM4.0 description paper: Adcroft et al. 2019, JAMES, doi:10.1029/2019MS001726
+- NOAA-GFDL/MOM6-examples for experiment layouts: https://github.com/NOAA-GFDL/MOM6-examples
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- **NOAA-GFDL** and the multi-institution MOM6 consortium
+  (Princeton, NCAR, NOAA-EMC, DOE-E3SM) for building and maintaining
+  [MOM6](https://github.com/NOAA-GFDL/MOM6), the Sphinx documentation at
+  https://mom6.readthedocs.io, and the
+  [MOM6 wiki](https://github.com/NOAA-GFDL/MOM6/wiki) pages on coding style,
+  diagnostic remapping, and the runtime parameter system that this skill
+  relies on.
+- **Adcroft et al. (2019)** for the OM4.0 description paper
+  (doi:10.1029/2019MS001726), the canonical MOM6 reference and the source for
+  much of the physics framing here.
+- The **MOM6-examples** maintainers for the experiment layouts and regression
+  configurations this skill points new users toward.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill)
+  and the xhelio family, the progressive-disclosure layout this repo borrows.
+- Sibling skills `noahmp-skill`, `cam-skill`, and `e3sm-skill` for shared
+  structure and cross-references on the coupled-modeling stack.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's.
+
 ## Install
 
 This skill follows the same layout as
